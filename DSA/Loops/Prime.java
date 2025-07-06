@@ -16,6 +16,7 @@ public class Prime {
             for (int i = 2; i <= Math.sqrt(n); i++) {
                 if (n % i == 0) {
                     isprime = false;
+                    break;
                 }
             }
             if (isprime == true) {
