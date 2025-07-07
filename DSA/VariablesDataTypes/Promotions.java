@@ -25,7 +25,7 @@ public class Promotions {
         float y = 20.25f;
         long z = 25;
         double w = 99;
-        double ans = w + x + y + z;  // here x,z,w are converted to highest type that is float.
+        double ans = w + x + y + z;  // here x,z,w are converted to highest type that is double.
         System.out.println(ans);
 
     }
