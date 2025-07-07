@@ -2,7 +2,7 @@ package DSA.Pattern;
 
 public class InvertedHalfPyramidWithNumbers {
 
-    public static void invert_half_pyramid_numbers(int n) {
+    public static void invertHalfPyramidNumbers(int n) {
         int count = n;
         for(int i = 1; i <= n; i++) {
             for (int j = 1; j <= count; j++) {  
@@ -14,6 +14,13 @@ public class InvertedHalfPyramidWithNumbers {
         }
     }
     public static void main(String args[]) {
-        invert_half_pyramid_numbers(5);
+        invertHalfPyramidNumbers(5);
     }
 }
+
+//Output
+// 12345
+// 1234
+// 123
+// 12
+// 1

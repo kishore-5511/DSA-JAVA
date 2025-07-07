@@ -10,3 +10,9 @@ public class Star {
         }
     }
 }
+
+//Output
+// *
+// **
+// ***
+// ****

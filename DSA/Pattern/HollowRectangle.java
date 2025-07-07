@@ -1,6 +1,6 @@
 package DSA.Pattern;
 public class HollowRectangle {
-    public static void hollow_rectangle(int rows, int cols) {
+    public static void hollowRectangle(int rows, int cols) {
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= cols; j++) {
                 // boundary cell condition
@@ -14,6 +14,16 @@ public class HollowRectangle {
         }
     }
     public static void main(String args[]) {
-        hollow_rectangle(8, 5);
+        hollowRectangle(8, 5);
     }
 }
+
+//Output
+// *****
+// *   *
+// *   *
+// *   *
+// *   *
+// *   *
+// *   *
+// *****

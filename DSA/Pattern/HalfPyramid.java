@@ -10,5 +10,11 @@ public class HalfPyramid {
             System.out.println();
         }
     }
-    
 }
+
+//Output 
+// 1
+// 12
+// 123
+// 1234
+// 12345

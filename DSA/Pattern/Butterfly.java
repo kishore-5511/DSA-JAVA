@@ -2,7 +2,7 @@ package DSA.Pattern;
 
 public class Butterfly {
 
-    public static void butterfly_pattern(int n) {
+    public static void butterflyPattern(int n) {
         for (int i = 1; i <= n; i++) {
             for(int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -30,6 +30,22 @@ public class Butterfly {
     }
 
     public static void main(String args[]) {
-        butterfly_pattern(7);
+        butterflyPattern(7);
     }
 }
+
+// Output
+// *            *
+// **          **
+// ***        ***
+// ****      ****
+// *****    *****
+// ******  ******
+// **************
+// **************
+// ******  ******
+// *****    *****
+// ****      ****
+// ***        ***
+// **          **
+// *            *

@@ -13,3 +13,12 @@ public class Character {
         }
     }
 }
+
+
+// Output
+// A
+// BC
+// DEF
+// GHIJ
+// KLMNO
+// PQRSTU
