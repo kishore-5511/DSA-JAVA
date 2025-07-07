@@ -1,5 +1,7 @@
+
 // Taxation problem
 import java.util.*;
+
 public class q3 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -15,12 +17,14 @@ public class q3 {
         System.out.println("Bill Before GST: ");
         System.out.println(bill);
 
-        float total_bill = bill + bill*18/100;
+        float totalBill = bill + bill * 18 / 100;
         System.out.println("Bill After GST: ");
-        System.out.println(total_bill);
+        System.out.println(totalBill);
 
         // q5
-        // Names of variables are called identifiers in Java.Identifier rule says, identifiers can start with any alphabet or underscore (“_”) or dollar (“$”).According to the rule the given variable name is a valid identifier.
+        // Names of variables are called identifiers in Java.Identifier rule says,
+        // identifiers can start with any alphabet or underscore (“_”) or dollar
+        // (“$”).According to the rule the given variable name is a valid identifier.
         int $ = 24;
         System.out.println($);
 

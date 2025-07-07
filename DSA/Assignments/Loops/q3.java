@@ -1,6 +1,8 @@
 // Factorial of a number.
 package DSA.Assignments.Loops;
+
 import java.util.*;
+
 public class q3 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -13,7 +15,7 @@ public class q3 {
             return;
         }
         for (int i = 1; i <= n; i++) {
-            fact = fact*i;
+            fact = fact * i;
         }
         System.out.println("Factorial of n is: " + fact);
         sc.close();

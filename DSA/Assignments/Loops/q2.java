@@ -4,8 +4,8 @@ import java.util.*;
 public class q2 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int even_sum = 0;
-        int odd_sum = 0;
+        int evenSum = 0;
+        int oddSum = 0;
         while(true) {
             System.out.println("Enter your choice: \n1.Enter an integer \n2.Print sum of odds and evens \n3.Exit");
             int choice = sc.nextInt();
@@ -14,15 +14,15 @@ public class q2 {
                     System.out.println("Enter an integer: ");
                     int n = sc.nextInt();
                     if (n % 2 ==0) {
-                        even_sum += n;
+                        evenSum += n;
                     } else { 
-                        odd_sum += n;
+                        oddSum += n;
                     }
                     break;
                 }
                 case 2: {
-                    System.out.println("The odd sum is: " + odd_sum);
-                    System.out.println("The even sum is: " + even_sum);
+                    System.out.println("The odd sum is: " + oddSum);
+                    System.out.println("The even sum is: " + evenSum);
                     break;
                 }
                 case 3: {

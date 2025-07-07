@@ -1,13 +1,14 @@
 // Even number checker.
 package DSA.Assignments.Functions;
+
 import java.util.*;
+
 public class q2 {
 
     public static boolean isEven(int n) {
         if (n % 2 == 0) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }
