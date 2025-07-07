@@ -38,12 +38,12 @@ public class Function {
 
     // Binary Coefficient  => ncr = n!/(r!(n-r)!)
     public static int bincoeff(int n, int r) {
-        int n_fact = factorial(n);
-        int r_fact = factorial(r);
-        int nr_fact = factorial(n - r);
+        int nFact = factorial(n);
+        int rFact = factorial(r);
+        int nrFact = factorial(n - r);
 
-        int bincoeff = n_fact / (r_fact * nr_fact);
-        return bincoeff;
+        int binCoeff = nFact / (rFact * nrFact);
+        return binCoeff;
     }
 
     // Function overloading
