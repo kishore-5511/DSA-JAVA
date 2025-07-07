@@ -1,4 +1,4 @@
-// Print the number of 7’s that are inthe 2d array.
+// Print the number of 7’s that are in the 2d array.
 public class q1 {
 
     public static void count7(int matrix[][]) {

@@ -10,9 +10,9 @@ public class q3 {
         }
 
         System.out.println("Tranpose Matrix : ");
-        for(int j = 0; j < matrix[0].length; j++) {
-            for(int i = 0; i < matrix.length; i++) {
-                System.out.print(matrixT[j][i] + " ");
+        for(int i = 0; i < matrixT.length; i++) {
+            for(int j = 0; j < matrixT[0].length; j++) {
+                System.out.print(matrixT[i][j] + " ");
             }
             System.out.println();
         }
