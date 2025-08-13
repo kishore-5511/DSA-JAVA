@@ -5,7 +5,7 @@ public class HollowRectangle {
             for (int j = 1; j <= cols; j++) {
                 // boundary cell condition
                 if(i == 1 || j == 1 || i == rows || j == cols) {    
-                    System.out.print("*");
+                    System.out.print("*" + " ");
                 } else {
                     System.out.print(" ");
                 }
