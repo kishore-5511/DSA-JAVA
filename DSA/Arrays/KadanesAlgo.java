@@ -10,13 +10,11 @@ public class KadanesAlgo {
                 currSum = 0;
             }
             // If at any point, the current subarray sum becomes negative, we reset it to 0.
-            // Why? Because a negative sum will reduce the value of any future subarray that
-            // includes it.
+            // Why? Because a negative sum will reduce the value of any future subarray that includes it.
             // So it’s better to start fresh from the next index.
             maxSum = Math.max(maxSum, currSum);
         }
-        // this piece of code is to select the minimum number from the array when all
-        // the elements of the array are negative.
+        // this piece of code is to select the minimum number from the array when all the elements of the array are negative.
         if (maxSum == 0) {
             int max = Integer.MIN_VALUE;
             for (int i = 0; i < arr.length; i++) {

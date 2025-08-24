@@ -6,8 +6,7 @@ public class SubArrays {
         int s = 0; // index for sumSubArray.
         int n = num.length;
         int sumSubArray[] = new int[n * (n + 1) / 2];
-        // n*(n+1)/2 is formula to calculate the total number of subarrays in a given
-        // array.
+        // n*(n+1)/2 is formula to calculate the total number of subarrays in a given array.
         for (int i = 0; i < num.length; i++) {
             int start = i;
             for (int j = i; j < num.length; j++) {
