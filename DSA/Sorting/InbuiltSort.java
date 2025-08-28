@@ -32,5 +32,5 @@ public class InbuiltSort {
 // For primitive types (int[], double[], etc.): Not Stable
 // Java uses Dual-Pivot QuickSort.
 // For objects (Integer[], String[], etc.): Stable
-// Java uses TimSort, a hybrid algorithm derived from Merge Sort and Insertion
-// Sort
+// Java uses TimSort, a hybrid algorithm derived from Merge Sort and Insertion Sort
+ 
